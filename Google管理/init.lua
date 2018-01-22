@@ -1,0 +1,18 @@
+appname="GoogleApps管理"
+appver="2.0"
+appcode="100"
+appsdk="21"
+path_pattern=""
+packagename="com.xiaochen.GoogleTool"
+theme="Theme_Material_Light"
+developer=""
+description=""
+debugmode=false
+user_permission={
+  "DOWNLOAD_WITHOUT_NOTIFICATION",
+  "INTERNET",
+  "READ_EXTERNAL_STORAGE",
+  "READ_PHONE_STATE",
+  "WRITE_EXTERNAL_STORAGE",
+  "WRITE_SETTINGS"
+}

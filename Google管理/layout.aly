@@ -1,0 +1,53 @@
+{
+  LinearLayout;
+  layout_width="fill";
+  orientation="vertical";
+  layout_height="fill";
+   
+  {
+    RelativeLayout;
+    layout_width="fill";
+    layout_height="fill";
+    {
+      LinearLayout;
+      layout_width="fill";
+      layout_height="fill";
+      {
+        ListView;
+        id="lv";
+        layout_width="fill";
+      };
+    };
+    {
+      LinearLayout;
+      layout_width="fill";
+      layout_height="fill";
+      gravity="bottom|right";
+      {
+        CardView;
+        
+        CardElevation="4dp";
+        layout_width="56dp";
+        radius="28dp";
+        layout_margin="60dp";
+        background="#009688";
+        layout_height="56dp";
+        {
+          LinearLayout;
+          style="?android:attr/buttonBarButtonStyle";
+          id="butt";
+          layout_width="74dp";
+          layout_gravity="center";
+          layout_height="74dp";
+          id="send_loa";
+          {
+            TextView;
+            text="More";
+            textColor="#ffffff";
+            id="send_loa";
+          };
+        };
+      };
+    };
+  };
+};
